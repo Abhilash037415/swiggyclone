@@ -1,5 +1,7 @@
 .banner-img {
   height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
 .categories {
   text-align: center;
@@ -29,7 +31,7 @@
 .restaurants {
   text-align: center;
   padding: 40px;
-  padding-bottom:360px;
+  padding-bottom: 360px;
 }
 
 .restaurant-grid {
