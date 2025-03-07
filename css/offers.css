@@ -1,0 +1,69 @@
+.offers-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .offer-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  .offer-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .offer-details {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .offer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .offer-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .claim-btn {
+    display: inline-block;
+    background: #fc8019;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+  }
+  
+  .claim-btn:hover {
+    background: #e06b10;
+    cursor: pointer;
+  }
+  
+  .offers-heading {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #333;
+}

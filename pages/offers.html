@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy Clone Header</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/offers.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Left Side: Logo & Location Dropdown -->
+      <div class="left-section">
+        <img src="../assets/logo.png" alt="Swiggy" class="logo" />
+        <a href="../index.html" class="nav-item">Swiggy</a>
+        <select class="location-dropdown">
+          <option>Select City</option>
+          <option>Mumbai</option>
+          <option>Delhi</option>
+          <option>Bangalore</option>
+          <option>Chennai</option>
+          <option>Kolkata</option>
+          <option>Hyderabad</option>
+        </select>
+      </div>
+
+      <!-- Right Side: Menu Items -->
+      <nav class="nav-menu">
+        <a href="./offers.html" class="nav-item"
+          ><i class="fa-solid fa-percent"></i>Offers</a
+        >
+        <a href="./help.html" class="nav-item"
+          ><i class="fa-solid fa-phone"></i>Help</a
+        >
+        <a href="./signin.html" class="nav-item"
+          ><i class="fa-solid fa-user"></i> Sign In</a
+        >
+        <a href="./cart.html" class="nav-item"
+          ><i class="fa-solid fa-cart-shopping"></i>Cart</a
+        >
+        <button class="search-btn">
+          <input type="text" placeholder="Search..." />
+        </button>
+      </nav>
+    </header>
+    <section class="offers-section">
+      <h2 class="offers-heading">Exclusive Offers for You</h2>
+
+    <div class="offers-container">
+        <div class="offer-card">
+            <img src="../assets/offer1.jpg" alt="Offer 1" class="offer-image">
+            <div class="offer-details">
+                <h3 class="offer-title">Super Pro Deal</h3>
+                <p class="offer-description">Get 2 Pizzas for the price of 1! Limited time only.</p>
+                <a href="#" class="claim-btn">Claim Offer</a>
+            </div>
+        </div>
+
+        <div class="offer-card">
+            <img src="../assets/offer2.jpg" alt="Offer 2" class="offer-image">
+            <div class="offer-details">
+                <h3 class="offer-title">50% Off Special</h3>
+                <p class="offer-description">Enjoy 50% off on your favorite meals today.</p>
+                <a href="#" class="claim-btn">Claim Offer</a>
+            </div>
+        </div>
+
+        <div class="offer-card">
+            <img src="../assets/offer3.jpg" alt="Offer 3" class="offer-image">
+            <div class="offer-details">
+                <h3 class="offer-title">Burger Fest</h3>
+                <p class="offer-description">Buy one burger, get another one free. Limited period.</p>
+                <a href="#" class="claim-btn">Claim Offer</a>
+            </div>
+        </div>
+    </div>
+  </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Swiggy One</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

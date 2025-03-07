@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy Clone Header</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img src="../assets/logo.png" alt="Swiggy" class="logo" />
+        <a href="../index.html" class="nav-item">Swiggy</a>
+        <select class="location-dropdown">
+          <option>Select City</option>
+          <option>Mumbai</option>
+          <option>Delhi</option>
+          <option>Bangalore</option>
+          <option>Chennai</option>
+          <option>Kolkata</option>
+          <option>Hyderabad</option>
+        </select>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="./offers.html" class="nav-item"
+          ><i class="fa-solid fa-percent"></i>Offers</a
+        >
+        <a href="./help.html" class="nav-item"
+          ><i class="fa-solid fa-phone"></i>Help</a
+        >
+        <a href="./signin.html" class="nav-item"
+          ><i class="fa-solid fa-user"></i> Sign In</a
+        >
+        <a href="./cart.html" class="nav-item"
+          ><i class="fa-solid fa-cart-shopping"></i>Cart</a
+        >
+        <button class="search-btn">
+          <input type="text" placeholder="Search..." />
+        </button>
+      </nav>
+    </header>
+    <div class="cart-container">
+      <h2>Your Shopping Cart</h2>
+      <div class="cart-items">
+        <div class="cart-item">
+          <img src="../assets/qyfhfocbg6imgakcbwwt.avif" alt="Food Item 1" />
+          <div class="item-details">
+            <h3>Delicious Pizza</h3>
+            <p>$12.99</p>
+            <div class="quantity-control">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="../assets/burgers.jpg" alt="Food Item 2" />
+          <div class="item-details">
+            <h3>Spicy Burger</h3>
+            <p>$8.99</p>
+            <div class="quantity-control">
+              <button>-</button>
+              <span>2</span>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <h3>Total: $30.97</h3>
+        <button class="checkout-btn">Proceed to Pay</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Swiggy One</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy Clone Header</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Left Side: Logo & Location Dropdown -->
+      <div class="left-section">
+        <img src="../assets/logo.png" alt="Swiggy" class="logo" />
+        <a href="../index.html" class="nav-item">Swiggy</a>
+        <select class="location-dropdown">
+          <option>Select City</option>
+          <option>Mumbai</option>
+          <option>Delhi</option>
+          <option>Bangalore</option>
+          <option>Chennai</option>
+          <option>Kolkata</option>
+          <option>Hyderabad</option>
+        </select>
+      </div>
+
+      <!-- Right Side: Menu Items -->
+      <nav class="nav-menu">
+        <a href="./offers.html" class="nav-item"
+          ><i class="fa-solid fa-percent"></i>Offers</a
+        >
+        <a href="./help.html" class="nav-item"
+          ><i class="fa-solid fa-phone"></i>Help</a
+        >
+        <a href="./signin.html" class="nav-item"
+          ><i class="fa-solid fa-user"></i> Sign In</a
+        >
+        <a href="./cart.html" class="nav-item"
+          ><i class="fa-solid fa-cart-shopping"></i>Cart</a
+        >
+        <button class="search-btn">
+          <input type="text" placeholder="Search..." />
+        </button>
+      </nav>
+    </header>
+    <section class="signin-section">
+      <div class="signin-container">
+        <div class="signin-box">
+          <h2>Sign In and Discover More!</h2>
+          <form>
+            <div class="input-group">
+              <input type="text" placeholder="First Name" required />
+            </div>
+            <div class="input-group">
+              <input type="text" placeholder="Last Name" required />
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+              <input type="password" placeholder="Password" required />
+            </div>
+            <div class="options">
+              <label><input type="checkbox" /> Remember Me</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit">Sign In</button>
+            <p class="signup-text">
+              Don't have an account? <a href="#">Sign up</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Swiggy One</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy Clone Header</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/help.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Left Side: Logo & Location Dropdown -->
+      <div class="left-section">
+        <img src="../assets/logo.png" alt="Swiggy" class="logo" />
+        <a href="../index.html" class="nav-item">Swiggy</a>
+        <select class="location-dropdown">
+          <option>Select City</option>
+          <option>Mumbai</option>
+          <option>Delhi</option>
+          <option>Bangalore</option>
+          <option>Chennai</option>
+          <option>Kolkata</option>
+          <option>Hyderabad</option>
+        </select>
+      </div>
+
+      <!-- Right Side: Menu Items -->
+      <nav class="nav-menu">
+        <a href="./offers.html" class="nav-item"
+          ><i class="fa-solid fa-percent"></i>Offers</a
+        >
+        <a href="./help.html" class="nav-item"
+          ><i class="fa-solid fa-phone"></i>Help</a
+        >
+        <a href="./signin.html" class="nav-item"
+          ><i class="fa-solid fa-user"></i> Sign In</a
+        >
+        <a href="./cart.html" class="nav-item"
+          ><i class="fa-solid fa-cart-shopping"></i>Cart</a
+        >
+        <button class="search-btn">
+          <input type="text" placeholder="Search..." />
+        </button>
+      </nav>
+    </header>
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>How do I place an order on Swiggy?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt orci at nisi gravida. Aliquam erat volutpat. Fusce suscipit, turpis eget commodo pharetra.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What payment methods are accepted?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt orci at nisi gravida. Aliquam erat volutpat. Fusce suscipit, turpis eget commodo pharetra.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How can I track my order?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt orci at nisi gravida. Aliquam erat volutpat. Fusce suscipit, turpis eget commodo pharetra.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I cancel my order?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt orci at nisi gravida. Aliquam erat volutpat. Fusce suscipit, turpis eget commodo pharetra.</p>
+      </div>
+    </section>
+    
+
+  <section class="contact-section">
+      <div class="contact-container">
+          <div class="contact-image">
+              <img src="../assets/customersupport1.jpg" alt="Customer Support">
+          </div>
+          <div class="contact-form">
+              <h2>Contact Us</h2>
+              <form>
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Swiggy One</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
