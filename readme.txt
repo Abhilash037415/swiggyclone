@@ -1,61 +1,46 @@
-# Swiggy UI Clone (HTML & CSS)
+Swiggy UI Clone (HTML & CSS)
 
-A basic front-end clone of the Swiggy landing page built using **HTML** and **CSS**. This project was created purely for practice and focuses on replicating the visual layout and styling of Swiggy's website.
+A simple front-end clone of the Swiggy landing page built using HTML and CSS. This was a practice project aimed at improving front-end development skills by recreating the design and layout of a modern food delivery app.
 
----
+✨ Features
 
-## ✨ Features
+🖥️ Desktop-friendly layout (non-responsive)
 
-* 🎯 Clean layout and styling
-* 🖼️ Static UI resembling Swiggy's homepage
-* 🎨 Custom styling with CSS
-* 🚀 Beginner-friendly project to understand front-end concepts
+🎨 Clean and organized UI styled with CSS
 
-> ⚠️ **Note:** This project is **not responsive** and is best viewed on desktop.
+🧱 Static HTML structure simulating Swiggy's homepage sections
 
----
+👨‍💻 Great for beginners to learn layouting, positioning, and CSS basics
 
-## 📦 Getting Started
+⚠️ Note: This project is not responsive and is best viewed on larger screens (desktops/laptops).
 
-1. **Clone the repository**
+🚀 Getting Started
 
-```bash
+Clone the repository
+
 git clone https://github.com/Abhilash037415/swiggyclone.git
-```
 
-2. **Navigate to the project folder**
+Navigate to the project folder
 
-```bash
 cd swiggyclone
-```
 
-3. **Open the `index.html` file in your browser**
+Open the index.html file in your browser
 
-```bash
 double-click index.html
-```
 
-*Alternatively, you can use Live Server in VS Code for real-time preview.*
+Alternatively, use Live Server in VS Code for real-time preview.
 
----
+🗂️ File Structure
 
-## 🗂️ File Structure
-
-```
 /
 ├── index.html
 └── style.css
-```
 
----
-
-## 📄 License
+📄 License
 
 This project is licensed under the MIT License.
 
----
+👨‍💻 Author
 
-## 👨‍💻 Author
+Abhilash MunnangiGitHub Profile
 
-**Abhilash Munnangi**
-[GitHub Profile](https://github.com/Abhilash037415)
