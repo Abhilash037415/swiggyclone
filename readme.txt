@@ -36,11 +36,7 @@ Alternatively, use Live Server in VS Code for real-time preview.
 ├── index.html
 └── style.css
 
-📄 License
-
-This project is licensed under the MIT License.
-
 👨‍💻 Author
 
-Abhilash MunnangiGitHub Profile
+Abhilash Munnangi
 
